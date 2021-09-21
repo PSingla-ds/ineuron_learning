@@ -4,6 +4,15 @@ import pandas as pd
 
 
 def main(data, modelName, plotName, eta, epochs):
+    """ it is used to generate the dataframe and then split it into dependent and independent variables
+
+    Args:
+        data ([type]): [description]
+        modelName ([type]): [description]
+        plotName ([type]): [description]
+        eta ([type]): [description]
+        epochs ([type]): [description]
+    """
     df = pd.DataFrame(data)
     print(df)
     X, y = prepare_data(df)
