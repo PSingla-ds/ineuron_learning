@@ -1,3 +1,7 @@
+""" 
+author: Preeti  
+email: psinglads@gmail.com
+"""
 import numpy as np
 
 
